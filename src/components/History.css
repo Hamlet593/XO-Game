@@ -1,0 +1,35 @@
+.history {
+    width: auto;
+    height: auto;
+    margin-left: 120px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    background-color: rgb(248, 245, 239);
+    margin-left: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.history button, .start_btn {
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.history button:hover, .start_btn:hover{
+    background: #b1a5a5;
+    transition: .4s all ease;
+}
